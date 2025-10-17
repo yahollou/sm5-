@@ -1,0 +1,39 @@
+#include<iostream>
+
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int first;
+	int second;
+	int action;
+	cout << "введите первое число ";
+	cin >> first;
+	
+	cout << "введите второе число ";
+	cin >> second;
+	cout << "   калькулятор   " << endl;
+	cout << 1 << ". сложение (+)" << endl;
+	cout << 2 << ". вычитание (-)" << endl;
+	cout << 3 << ". умножение (*)" << endl;
+	cout << 4 << ". деление  (/)" << endl;
+	cout << 5 << ". деление от остатка (%)" << endl;
+	cin >> action;
+	if (action == 1) {
+		cout << first + second;
+	}
+	else if (action == 2) {
+		cout << first - second;
+	}
+	else if (action == 3) {
+		cout << first * second;
+	}
+	else if (action == 4) {
+		if (first == 0 or second == 0) {
+			cout << "на ноль делить нельзя";
+		}
+		else if (cout << first / second);
+		
+	}
+
+
+}
